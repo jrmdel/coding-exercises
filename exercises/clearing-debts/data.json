@@ -1,0 +1,126 @@
+{
+  "account": "cf466828-4dae-4596-b7d8-f669f31aafe5",
+  "name": "Compte entre amis",
+  "participants": [
+    { "id": 1, "name": "Marcel" },
+    { "id": 2, "name": "Fred" },
+    { "id": 3, "name": "Jamy" },
+    { "id": 4, "name": "Sabine" }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "name": "Courses bricolage",
+      "amount": 142.17,
+      "payerId": 4,
+      "breakdown": [
+        { "participantId": 1, "amount": 47.39 },
+        { "participantId": 2, "amount": 47.39 },
+        { "participantId": 4, "amount": 47.39 }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Dîner entre amis",
+      "amount": 85.6,
+      "payerId": 3,
+      "breakdown": [
+        { "participantId": 1, "amount": 21.4 },
+        { "participantId": 2, "amount": 21.4 },
+        { "participantId": 3, "amount": 21.4 },
+        { "participantId": 4, "amount": 21.4 }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Cadeau d'anniversaire pour Fred",
+      "amount": 60.0,
+      "payerId": 1,
+      "breakdown": [
+        { "participantId": 1, "amount": 20.0 },
+        { "participantId": 3, "amount": 20.0 },
+        { "participantId": 4, "amount": 20.0 }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Billets de cinéma",
+      "amount": 48.0,
+      "payerId": 1,
+      "breakdown": [
+        { "participantId": 1, "amount": 12.0 },
+        { "participantId": 2, "amount": 12.0 },
+        { "participantId": 3, "amount": 12.0 },
+        { "participantId": 4, "amount": 12.0 }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Sortie au parc d'attractions",
+      "amount": 200.0,
+      "payerId": 3,
+      "breakdown": [
+        { "participantId": 1, "amount": 50.0 },
+        { "participantId": 2, "amount": 50.0 },
+        { "participantId": 3, "amount": 50.0 },
+        { "participantId": 4, "amount": 50.0 }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Déjeuner rapide",
+      "amount": 30.0,
+      "payerId": 4,
+      "breakdown": [
+        { "participantId": 2, "amount": 10.0 },
+        { "participantId": 3, "amount": 10.0 },
+        { "participantId": 4, "amount": 10.0 }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Essence pour le road trip",
+      "amount": 90.0,
+      "payerId": 4,
+      "breakdown": [
+        { "participantId": 1, "amount": 30.0 },
+        { "participantId": 2, "amount": 30.0 },
+        { "participantId": 4, "amount": 30.0 }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Courses alimentaires",
+      "amount": 120.0,
+      "payerId": 2,
+      "breakdown": [
+        { "participantId": 1, "amount": 40.0 },
+        { "participantId": 3, "amount": 40.0 },
+        { "participantId": 4, "amount": 40.0 }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Soirée jeux de société",
+      "amount": 70.0,
+      "payerId": 3,
+      "breakdown": [
+        { "participantId": 2, "amount": 23.33 },
+        { "participantId": 3, "amount": 23.34 },
+        { "participantId": 4, "amount": 23.33 }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Cours de cuisine",
+      "amount": 150.0,
+      "payerId": 1,
+      "breakdown": [
+        { "participantId": 1, "amount": 37.5 },
+        { "participantId": 2, "amount": 37.5 },
+        { "participantId": 3, "amount": 37.5 },
+        { "participantId": 4, "amount": 37.5 }
+      ]
+    }
+  ]
+}
