@@ -3,27 +3,30 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
 	"log"
+	"os"
 	"path/filepath"
+	"runtime"
 )
 
 func main() {
-	// Détermine le chemin du fichier
-	path := filepath.Join("..", "data.json")
+	_, filename, _, ok := runtime.Caller(0)
+	if !ok {
+			panic("No caller information")
+	}
 
-	// Lis le fichier
-	dataBytes, err := ioutil.ReadFile(path)
+	dir := filepath.Dir(filename)
+	path := filepath.Join(dir, "..", "data.json")
+
+	dataBytes, err := os.ReadFile(path)
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	// Parse le contenu JSON dans une variable data (de type interface{})
 	var data interface{}
 	if err := json.Unmarshal(dataBytes, &data); err != nil {
 		log.Fatal(err)
 	}
 
-	// Affiche le contenu de data
 	fmt.Printf("%+v\n", data)
 }
